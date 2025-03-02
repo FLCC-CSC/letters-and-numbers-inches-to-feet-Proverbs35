@@ -17,7 +17,7 @@
 def convert(inches):
     feet = inches // 12
     remaining_inches = inches % 12
-    print(inches, 'inches is', feet, 'feet and', remaining_inches, 'inches.')
+    print(inches, 'inches is', foot, 'feet and', remaining_inches, 'inches.')
 
 convert(int(input('Enter the number of inches: ')))
 
