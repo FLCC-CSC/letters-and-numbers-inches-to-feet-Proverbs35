@@ -14,13 +14,13 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-inches = int(input('Enter the number of inches: '))
+def convert(inches):
+    feet = inches // 12
+    remaining_inches = inches % 12
+    print(inches, 'inches is', feet, 'feet and', remaining_inches, 'inches.')
 
-feet = inches // 12
-remaining_inches = inches % 12
+convert(int(input('Enter the number of inches: ')))
 
-print(inches, 'inches is', feet, 'feet and', remaining_inches, 'inches.')
-      
         
     
     
