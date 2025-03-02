@@ -13,13 +13,14 @@
 # but also maybe the number of feet
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-    
-convert(inches to feet)
-inches = float(input('Enter the number of inches: '))
+
+inches = int(input('Enter the number of inches: '))
+
 feet = inches // 12
 remaining_inches = inches % 12
 
-print(f" {inches} inches is {feet} feet, and {remaining_inches:.2f} inches. ")             
+print(inches, 'inches is', feet, 'feet and', remaining_inches, 'inches.')
+      
         
     
     
