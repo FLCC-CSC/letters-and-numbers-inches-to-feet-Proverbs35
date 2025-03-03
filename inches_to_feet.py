@@ -15,7 +15,8 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 inches = int(input('Enter the number of inches: '))
-feet = int(inches // 12)
+
+feet = inches // 12
 remaining_inches = inches % 12
 
 print()
