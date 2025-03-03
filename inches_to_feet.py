@@ -14,16 +14,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-def convert(inches):
-    feet = inches // 12
-    remaining_inches = inches % 12
-    print(inches, 'inches is', foot, 'feet and', remaining_inches, 'inches.')
+inches = int(input('Enter the number of inches: '))
 
-convert(int(input('Enter the number of inches: ')))
+feet = int(inches // 12)
+remaining = feet % 12
+
+print()
+print(f'{int(inches)} inches is {feet} feet, and {remaining} inches')
 
         
-    
-    
+
 ########### END YER CODE ABOVE THIS LINE ###########
  
 ########################################
