@@ -15,13 +15,11 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 inches = int(input('Enter the number of inches: '))
-
 feet = inches // 12
 remaining_inches = inches % 12
-
 print()
-print(f'{int(inches)} inches is {feet} feet, and {remaining_inches} inches')
-        
+print(f'{inches} inches is {feet} feet, and {remaining_inches} inches')
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
  
