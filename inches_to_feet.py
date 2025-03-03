@@ -17,11 +17,10 @@
 inches = int(input('Enter the number of inches: '))
 
 feet = int(inches // 12)
-remaining = feet % 12
+remaining_inches = feet % 12
+print()
+print(f'{int(inches)} inches is {feet} feet, and {remaining_inches} inches')
 
-print()
-print(f'{int(inches)} inches is {feet} feet, and {remaining} inches')
-print()
         
 
 ########### END YER CODE ABOVE THIS LINE ###########
